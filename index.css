@@ -1,0 +1,73 @@
+/*header全体*/
+.header {
+  height: 50px;
+  width: 100vw;
+  background-color: #2B6442;
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+}
+
+/*header左*/
+.header-left-div {
+  display: flex;
+  align-items: center;
+}
+
+/*header右*/
+.navigation ul {
+  display: flex;
+}
+
+.navigation li {
+  list-style: none;
+  color: orange;
+  font-weight: bold;
+  font-size: 14px;
+   cursor: pointer;
+}
+
+.navigation li + li {
+  margin-left: 14px;
+}
+
+/*emblemとチーム名*/
+.header-team-info {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+/*emblem*/
+.emblem {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+/*FC BICHO*/
+.team-name {
+  text-decoration: none;
+  color: orange;
+  font-size: 24px;
+}
+
+/*instaicon*/
+.instagram-icon {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  margin-left: 60px;
+}
+
+/*youtubeIcon*/
+.youtube-icon {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  margin-left: 14px;
+}
